@@ -1,0 +1,41 @@
+
+.check{
+    display: flex;
+}
+
+.info-part{
+    width: 25vw;
+    margin: auto;
+}
+#active-level{
+    border: solid greenyellow 2px;
+}
+#start-game{
+    margin: 10px 0;
+}
+
+
+
+
+
+.grid{
+    height: 405px;
+    width: 808px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.square{
+    height:100px;
+    width: 200px;
+    border: solid black 1px;
+    background-image: url("dirt.jpg");
+    background-size: cover;
+    
+}
+
+.mole{
+    background-image: url("mole.jpg");
+    background-size: cover;
+}
